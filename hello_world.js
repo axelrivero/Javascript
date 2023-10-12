@@ -142,7 +142,7 @@ for (const value of myList) {
     console.log(value)
 }
 
-let myCounter = 0
+let myCounter = 10
 
 while (myCounter <= myList.length) {
     console.log(mylist[myCounter]) //Si observamos un undefined es porque no genera un error, sino sigue buscando en la lista o la estructura de datos
