@@ -142,7 +142,7 @@ for (const value of myList) {
     console.log(value)
 }
 
-let myCounter = 5
+let myCounter = 10
 
 
 while (myCounter <= myList.length) {
