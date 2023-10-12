@@ -70,9 +70,9 @@ indicarle algun tipo de dato y valor, pero antes de todo eso, esta como undefine
 
 // Control de flujo
 
-if (myNumber = 10 && myString = "Hola") {
+if (myNumber == 10 && myString == "Hola") {
     console.log("EL valor es 10")
-} else if (myNumber = 11 || myString = "Hola") {
+} else if (myNumber == 11 || myString == "Hola") {
     console.log("El valor es 11")
 } else {
     console.log("El valor no es 10")
@@ -83,7 +83,7 @@ if (myBool) {
     console.log("Null") // No se muestra en consola
 }
 
-if (myBool = null) {
+if (myBool == null) {
     console.log("Null") // Si se muestra en consola
 }
 
@@ -116,16 +116,14 @@ let myList = ["Axel", "Rivero", "@axelrivero", 27] // mutable
 console.log(myList)
 console.log(myList[0]) // llamar a uno de la lista por su posicion inicial
 
-// Set
-
-let mySet = ["Axel", "Rivero", "@axelrivero", 27] // mutable
-console.log(typeof mySet) 
+console.log(typeof myList) 
 /*
 Me indica un Object, todo lo que no sea un tipo de dato primitivo sera un Objeto
 Sin embargo verlo asi sigue siendo una lista se debe colocar new Set para que sea un Set y 
 De esta manera, no se repetiran los valores dentro del array
 */
 
+// Set
 
 let mySet = new Set(["Axel", "Rivero", "@axelrivero", 27, "Axel"])  // mutable
 mySet.add("Rivero") // Añade otro valor al set
