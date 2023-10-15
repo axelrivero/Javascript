@@ -14,11 +14,11 @@ console.log(myString);
 
 /*
 Es muy poco usada var por el hecho de que se declara como una variable global (Scope global), de esta manera es mejor usar
-let, ya que en caso de no definirla antes de su uso ella quedara como undefined
+let, ya que en caso de no definiría antes de su uso ella quedara como undefined
 */
 
 let myString2 = "Esto es una cadena de texto";
-myString2 = "Aqui cambio el valor de la cadena de texto";
+myString2 = "Aquí cambio el valor de la cadena de texto";
 
 // typeof me indica el tipo de dato de la variable
 console.log(typeof myString2);
