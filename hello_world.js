@@ -119,14 +119,14 @@ console.log(typeof myList);
 /*
 Me indica un Object, todo lo que no sea un tipo de dato primitivo sera un Objeto
 Sin embargo verlo asi sigue siendo una lista se debe colocar new Set para que sea un Set y 
-De esta manera, no se repetiran los valores dentro del array
+De esta manera, no se repetirán los valores dentro del array
 */
 
 // Set
 
 let mySet = new Set(["Axel", "Rivero", "@axelrivero", 27, "Axel"]); // mutable
 mySet.add("Rivero"); // Añade otro valor al set
-console.log(mySet); // Aparte nos indica que cantida poseemos en el array, aquellos que no se repintan contara
+console.log(mySet); // Aparte nos indica que cantidad poseemos en el array, aquellos que no se repintan contara
 
 // Mapas o Diccionarios, como se conoce lo de clave -> valor
 
@@ -157,14 +157,14 @@ while (myCounter <= myList.length) {
 // Clases
 
 class MyClass {
-  //Sirve para definir algo parecido a POO, asi lo entendi jejeje se usa Upper Camel Case
+  //Sirve para definir algo parecido a POO, asi lo entendí jejeje se usa Upper Camel Case
   constructor(name, age) {
     this.name = name;
     this.age = age;
   }
 }
 
-let myClass = new MyClass("Axel", 27); // añade a la funcion definida como class
+let myClass = new MyClass("Axel", 27); // añade a la función definida como class
 console.log(myClass);
 console.log(myClass.name); // Me imprime la clave name
 
@@ -175,7 +175,7 @@ const MyEnum = {
   PYTHON: "Python",
   SWIFT: "Swift",
   JAVA: "Java",
-  KOTLIN: "kotlin",
+  KOTLIN: "Kotlin",
   JAVASCRIPT: "JavaScript",
 };
 
