@@ -56,7 +56,7 @@ console.log(MY_CONST)
 myBool = null
 console.log(myBool + myNumber2)
 /*
-Me imrpime 6.5, debido a que el LP JS ignora el null y sigue con el number, en otros
+Me imprime 6.5, debido a que el LP JS ignora el null y sigue con el number, en otros
 LP eso podria ser fatal, generando un error.
 */
 
